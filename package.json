@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "pass a URL as a parameter in order to receive a shortened URL in the JSON response",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alichristensen/URL-Shortener-Microservice.git"
+  },
+  "author": "Ali Christensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alichristensen/URL-Shortener-Microservice/issues"
+  },
+  "homepage": "https://github.com/alichristensen/URL-Shortener-Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21"
+  }
+}
